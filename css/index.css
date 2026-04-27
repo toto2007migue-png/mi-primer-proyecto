@@ -4,7 +4,7 @@ body {
 }
 
 main {
-    flex: 1; 
+    flex: 1;
 }
 
 body {
@@ -33,14 +33,14 @@ nav {
 nav ul {
     display: flex;
     flex-direction: row;
-    gap: 4rem;
+    gap: 3rem;
     list-style: none;
-    ;
 }
 
-nav ul li a {
+nav ul li a i {
     color: #7a4431;
     text-decoration: none;
+    margin-right: 10px;
 }
 
 
@@ -93,11 +93,12 @@ section div h2 {
     text-align: center;
     font-family: math;
 }
+
 /* no se que es .wrapper me dijo la ia y me ayudo a acomodar el footer que me quedaba justo debajo de la hero */
 .wrapper {
     display: flex;
     flex-direction: column;
-    min-height: 100vh; 
+    min-height: 100vh;
 }
 
 
@@ -107,6 +108,7 @@ footer {
     text-align: center;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
 }
+
 footer ul {
     list-style: none;
     padding: 20px;
@@ -115,7 +117,8 @@ footer ul {
     justify-content: center;
     gap: 120px;
 }
+
 footer ul li a {
-    color:  #7a4431;
+    color: #7a4431;
     text-decoration: none;
 }
