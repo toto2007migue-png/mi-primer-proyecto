@@ -1,0 +1,121 @@
+body {
+    height: 100%;
+    margin: 0;
+}
+
+main {
+    flex: 1; 
+}
+
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.index {
+    background: black;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background: #E1E1E1;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 4rem;
+    padding-right: 4rem;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    gap: 4rem;
+    list-style: none;
+    ;
+}
+
+nav ul li a {
+    color: #7a4431;
+    text-decoration: none;
+}
+
+
+.descripcion h1 {
+    font-family: "Bebas Neue", sans-serif;
+    color: #a5a58d;
+    text-align: center;
+    padding: 2.5rem;
+}
+
+.presentacion p {
+    text-align: center;
+    color: #7a4431;
+}
+
+.hero {
+    position: relative;
+    max-width: 1250px;
+    margin: auto;
+    padding-bottom: 10rem;
+}
+
+section div h2 {
+    font-family: "Bebas Neue", sans-serif;
+    color: #F2EFE9;
+    text-align: center;
+    padding-bottom: 18rem;
+    padding-top: 7rem;
+}
+
+.after-hero {
+    background: url('../img/tloufondo1_after-hero.jpg') no-repeat center/cover;
+    background-size: cover;
+    background-attachment: fixed
+}
+
+.after-hero {
+    padding-top: 15rem;
+}
+
+.after-hero div {
+    color: #BDBDBD;
+    text-align: center;
+    padding: 5%
+}
+
+.after-hero p {
+    FONT-SIZE: x-large;
+    /* color: white; */
+    text-align: center;
+    font-family: math;
+}
+/* no se que es .wrapper me dijo la ia y me ayudo a acomodar el footer que me quedaba justo debajo de la hero */
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; 
+}
+
+
+footer {
+    background-color: #e1e1e1;
+    padding: 20px;
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+}
+footer ul {
+    list-style: none;
+    padding: 20px;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 120px;
+}
+footer ul li a {
+    color:  #7a4431;
+    text-decoration: none;
+}

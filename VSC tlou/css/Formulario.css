@@ -1,0 +1,36 @@
+body {
+    background-color: #000;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+
+form div {
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    height: 50%;
+    align-items: center;
+}
+
+label {
+    font-size: 1.2rem;
+    color: #ff4500;
+    gap: 50px;
+}
+
+/* hice un footer aparte pq el formulario es muy corto y el footer se quedaba pegado a el, con este footer aparte se queda al final de la pagina aunque el formulario sea corto */
+/* se que no es la mejor forma de solucionarlo o como se deberia hacer pero me sirve basicamente lo ate con alambre */
+.footer-formulario {
+    background-color: #e1e1e1;
+    padding: 20px;
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+
+}
